@@ -72,7 +72,7 @@ export class VEXDialogButtons {
   selector: 'modal-dialog',
   encapsulation: ViewEncapsulation.None,
   template: `<form class="vex-dialog-form">
-    <template [swapCmp]="context.content"></template>
+    <ng-template [swapCmp]="context.content"></ng-template>
     <vex-dialog-buttons [buttons]="context.buttons"
                         (onButtonClick)="onButtonClick($event)"></vex-dialog-buttons>
 </form>`

@@ -12,8 +12,8 @@ import {
   Injector
 } from '@angular/core';
 
-// <template [dynCmp]="myCmp" [dynCmpBindings]="myBindings"></template>
-// <template [dynCmp]="ctx.component" [dynCmpBindings]="ctx.bindings" [dynCmpProjectables]="ctx.projectableNodes"></template>
+// <ng-template [dynCmp]="myCmp" [dynCmpBindings]="myBindings"></ng-template>
+// <ng-template [dynCmp]="ctx.component" [dynCmpBindings]="ctx.bindings" [dynCmpProjectables]="ctx.projectableNodes"></ng-template>
 
 @Directive({
   selector: '[swapCmp]'

@@ -9,9 +9,7 @@ const config = require('./config');
 const sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('scripts:esm-ngc', (cb) => {
-  exec('./node_modules/.bin/ngc -p tsconfig.release.json', function (err, stdout, stderr) {
-    console.log(stdout);
-    console.log(stderr);
+  exec('ngc -p tsconfig.release.json', function (err, stdout, stderr) {
     if (err) {
       cb(err);
     } else {
