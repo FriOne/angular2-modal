@@ -1,11 +1,8 @@
 {
-  "vendor": {
-    "js": "/angular2-modal/vendor.27d85d2dae4955c66f6d.bundle.js"
-  },
   "main": {
-    "js": "/angular2-modal/main.70baf708490860d258a4.bundle.js"
+    "js": "/angular2-modal/main.d7c578690e96e52107be.bundle.js"
   },
   "polyfills": {
-    "js": "/angular2-modal/polyfills.09c9014df43a754ebdcc.bundle.js"
+    "js": "/angular2-modal/polyfills.69921fc2d9405459afdb.bundle.js"
   }
 }
